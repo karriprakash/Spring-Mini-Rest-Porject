@@ -34,7 +34,7 @@ import io.swagger.annotations.ApiOperation;
 @RequestMapping("/api/employee")
 @Api(description="Employee CRUD Controller")
 @Profile({"default","dev","test"})
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*") 
 public class EmployeeRestController {
 
 	@Autowired 
